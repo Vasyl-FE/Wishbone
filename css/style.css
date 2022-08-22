@@ -35,9 +35,11 @@ header ul {
 header ul li {
     margin-right: 32px;
     transition: 0.3s;
-    }
+}
 
-header ul li:hover{transform: scale(1.2)}
+header ul li:hover {
+    transform: scale(1.2)
+}
 
 header ul li a {
     text-decoration: none;
@@ -45,7 +47,7 @@ header ul li a {
     display: inline-block;
 }
 
-header ul li:last-of-type a{
+header ul li:last-of-type a {
     text-decoration: none;
     border-radius: 14px;
     background-color: black;
@@ -55,7 +57,7 @@ header ul li:last-of-type a{
     display: inline-block;
 }
 
-.section_one {
+.section_main {
     background-color: #ECE7E4;
     padding-top: 137px;
     padding-bottom: 128px;
@@ -64,16 +66,16 @@ header ul li:last-of-type a{
     background-repeat: no-repeat;
 }
 
-.section_one_div {
+.section_main_div {
     max-width: 1280px;
     margin: auto;
 }
 
-.section_one_text {
+.section_main_text {
     max-width: 509px;
 }
 
-.section_one_naming {
+.section_main_naming {
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
@@ -83,7 +85,7 @@ header ul li:last-of-type a{
     margin-bottom: 20px;
 }
 
-.section_one_slogan {
+.section_main_slogan {
     font-weight: 400;
     font-size: 64px;
     line-height: 70px;
@@ -91,7 +93,7 @@ header ul li:last-of-type a{
     margin-bottom: 18px;
 }
 
-.section_one_text {
+.section_main_text {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -99,7 +101,7 @@ header ul li:last-of-type a{
     margin-bottom: 41px;
 }
 
-.section_one_link {
+.section_main_link {
     display: inline-block;
     font-weight: 400;
     font-size: 16px;
@@ -110,24 +112,133 @@ header ul li:last-of-type a{
     margin-left: 25px;
 }
 
-.section_two {
+.our_process {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.our_process_container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.our_process_container h4 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #645C55;
+    margin-bottom: 13px;
+}
+
+.our_process_container h2 {
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 42px;
+    text-align: center;
+    color: #1B1A1A;
+    margin-bottom: 47px;
+}
+
+
+.our_process_d-flex_item {
+    text-align: center;
+}
+
+.our_process_container img {
+    max-width: 117px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.our_process_container h6 {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    text-align: center;
+    color: #403E3B;
+}
+
+.our_process_container p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #645C55;
+    max-width: 294px;
+    display: inline-block;
+}
+
+
+.our_process_container h6 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.owl-stage {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+
+.owl-dots {
+    position: absolute;
+    bottom: -40px;
+    margin-left: 0;
+    margin-right: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.owl-dot {
+    font-family: "Font Awesome 6 Free", sans-serif;
+    font-weight: 900;
+    content: "\f192";
+    color: #403E3B;
+    font-size: 30px;
+}
+
+
+.owl-dot:before {
+    font-family: "Font Awesome 6 Free", sans-serif;
+    font-weight: 900;
+    content: "\f192";
+    color: #403E3B;
+    font-size: 30px;
+}
+
+.owl-dot {
+    opacity: 60%;
+}
+
+.owl-dot.active {
+    opacity: 100%;
+}
+
+
+.section_git {
     background-color: #CEC4BC;
     padding-top: 100px;
     padding-bottom: 117px;
 }
 
-.section_two_div {
+.section_git_div {
     max-width: 1280px;
     margin: auto;
     display: flex;
     justify-content: space-between;
 }
 
-.section_two_div_text {
+.section_git_div_text {
     max-width: 569px;
 }
 
-.section_two_subject {
+.section_git_subject {
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
@@ -136,14 +247,14 @@ header ul li:last-of-type a{
     color: #645C55;
 }
 
-.section_two_question {
+.section_git_question {
     font-weight: 400;
     font-size: 40px;
     line-height: 42px;
     color: #1B1A1A;
 }
 
-.section_two_link {
+.section_git_link {
     display: inline-block;
     margin-top: 45px;
     font-weight: 400;

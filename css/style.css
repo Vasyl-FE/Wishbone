@@ -356,7 +356,7 @@ footer {
     transform: translateY(2px);
 }
 
-.ui-widget {font-family: inherit; font-size: 16px; border-radius: 11px}
+.ui-widget {font-family: inherit; font-size: 16px; border-radius: 11px;}
 
 .ui-widget p {margin-left: 18px;}
 

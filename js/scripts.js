@@ -1,5 +1,24 @@
 $(document).ready(function(){
 
+    $( function() {
+        $( "#dialog" ).dialog({
+            width: 420,
+            autoOpen: false,
+            show: {
+                effect: "slide",
+                duration: 800
+            },
+            hide: {
+                effect: "fade",
+                duration: 600
+            }
+        });
+
+        $( "#opener" ).on( "click", function() {
+            $( "#dialog" ).dialog( "open" );
+        });
+    } );
+
     $('.owl-carousel').owlCarousel({
         loop:true,
         margin:0,
@@ -11,7 +30,7 @@ $(document).ready(function(){
                 items:1
             },
 
-            700: {items:2},
+            600: {items:1},
             1000:{
                 items:3
             }

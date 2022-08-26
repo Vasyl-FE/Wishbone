@@ -311,3 +311,57 @@ footer {
     margin-right: 26px;
 }
 
+.get_template-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #F9FAFB;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    width: 350px;
+    height: 52px;
+    margin: auto;
+}
+
+
+.get_template-form input {
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    width: 260px;
+    height: 40px;
+    margin-left: 6px;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 5px;
+    caret-color: #403E3B;
+}
+
+
+.get_template-form button {
+    background: #403E3B;
+    border-radius: 11px;
+    width: 60px;
+    height: 30px;
+    margin-right: 6px;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+}
+
+.get_template-form button:hover {
+    cursor: pointer;
+}
+
+.get_template-form button:active {
+    transform: translateY(2px);
+}
+
+.ui-widget {font-family: inherit; font-size: 16px; border-radius: 11px}
+
+.ui-widget p {margin-left: 18px;}
+
+.ui-widget-header {background-color: #403E3B; border-radius: 11px;}
+
+.ui-dialog .ui-dialog-title {color: #FFFFFF;font-weight: 400;}
+
+.ui-button:active {border: 1px solid #645C55; background-color: #645C55;}
